@@ -3,22 +3,22 @@
 <html>
 <head>
   <title>JBrowse Jasmine Test Runner</title>
+  <script type="text/javascript" src="jasmine/lib/jasmine.js"></script>
+  <script type="text/javascript" src="jasmine/lib/json2.js"></script>
+  <script type="text/javascript" src="jasmine/lib/TrivialReporter.js"></script>
+  <script type="text/javascript" src="jasmine/lib/consolex.js"></script>
+  <link rel="stylesheet" type="text/css" href="jasmine/lib/jasmine.css">
+  
+  <script type="text/javascript" src="../jslib/dojo/dojo.js" djConfig="isDebug: false"></script>
+  <script type="text/javascript" src="../jslib/dojo/jbrowse_dojo.js" ></script>
+  <script type="text/javascript" src="../js/LazyArray.js"></script>
+  <script type="text/javascript" src="../js/NCList.js"></script>
+  <script type="text/javascript" src="../js/Util.js"></script>
+  
+  <!-- include spec files here... -->
+  <script type="text/javascript" src="LazyArray-test.js"></script>
+  <script type="text/javascript" src="NCList-test.js"></script>
 </head>
-<script type="text/javascript" src="jasmine/lib/jasmine-0.10.2.js"></script>
-<script type="text/javascript" src="jasmine/lib/TrivialReporter.js"></script>
-<script type="text/javascript" src="jasmine/lib/consolex.js"></script>
-<link rel="stylesheet" type="text/css" href="jasmine/lib/jasmine.css">
-
-<script type="text/javascript" src="../jslib/dojo/dojo.js" djConfig="isDebug: false"></script>
-<script type="text/javascript" src="../jslib/dojo/jbrowse_dojo.js" ></script>
-<script type="text/javascript" src="../js/LazyArray.js"></script>
-<script type="text/javascript" src="../js/NCList.js"></script>
-<script type="text/javascript" src="../js/Util.js"></script>
-
-<script type="text/javascript">
-  jasmine.include('LazyArray-test.js', true);
-  jasmine.include('NCList-test.js', true);
-</script>
 
 <body>
 
